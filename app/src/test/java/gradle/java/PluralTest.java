@@ -28,4 +28,15 @@ public class PluralTest {
         assertThat(result).isEqualTo(output);
     }
 
+    @Test
+    void is_not_a_plural_when_my_input_is_two_or_more(){
+        Integer input = 2;
+        Boolean output = true;
+
+        Plural myNewObject = new Plural();
+        Boolean result = myNewObject.isPlural(input);
+
+        assertThat(result).isEqualTo(output);
+    }
+
 }

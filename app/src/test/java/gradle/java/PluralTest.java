@@ -17,4 +17,15 @@ public class PluralTest {
         assertThat(result).isEqualTo(output);
     }
 
+    @Test
+    void is_not_a_plural_when_my_input_is_one(){
+        Integer input = 1;
+        Boolean output = false;
+
+        Plural myNewObject = new Plural();
+        Boolean result = myNewObject.isPlural(input);
+
+        assertThat(result).isEqualTo(output);
+    }
+
 }

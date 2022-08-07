@@ -12,7 +12,6 @@ All values will be positive integers or floats, or zero.
 ---
 
 - when I say : zero apples -> is a plural -> return true
-- when I say: an apple and a half -> is a plural --> return true
 - when I say : one apple -> is not a plural -> return false
 - when I say: two apples -> is a plural -> return true
 
@@ -20,9 +19,6 @@ All values will be positive integers or floats, or zero.
 - Example:
  ```
  Input --> type: integer --> 0
- Output --> type: boolean --> true
- 
- Input --> type: integer --> .5
  Output --> type: boolean --> true
  
  Input --> type: integer --> 1

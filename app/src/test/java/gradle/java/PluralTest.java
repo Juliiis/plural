@@ -29,7 +29,7 @@ public class PluralTest {
     }
 
     @Test
-    void is_not_a_plural_when_my_input_is_two_or_more(){
+    void is_plural_when_my_input_is_two_or_more(){
         Integer input = 2;
         Boolean output = true;
 
